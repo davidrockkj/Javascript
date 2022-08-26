@@ -1,0 +1,11 @@
+var arr1 = [1, 2, 3, 4, 5];
+var arr2 = [6, 7];
+var arr3 = [8];
+var arr4 = [9, 10, 11, 12];
+
+function remove (arr1){return arr1.length>=3 ? arr1.slice(3):[]};
+
+console.log(remove(arr1));
+console.log(remove(arr2));
+console.log(remove(arr3));
+console.log(remove(arr4));
